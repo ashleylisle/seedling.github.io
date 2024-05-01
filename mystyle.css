@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar {
+    padding: .8rem;
+    font-family: "Avenir", serif;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+    color: #2A7E08 !important;
+}
+
+.nav-link:hover {
+    font-size: 1.1em !important;
+    color: #000000 !important;
+}
+
+.dropdown-item {
+    color: #2A7E08 !important;
+}
+
+.carousel-inner-img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    text-shadow: 1px 1px 15px #000;
+    padding: 20px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+.btn-primary {
+    background-color: #2A7E08;
+    border: 1px solid #2A7E08;
+    color: #ecfce7;
+}
+
+.btn-primary:hover {
+    background-color: #ecfce7;
+    border: 1px solid #2A7E08;
+    color: #2A7E08;
+}
+
+.btn-border-radius {
+    
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    padding: 15px;
+    width: 100%;
+}
+
+.greenbackground {
+    background-color: #c5e2b9;
+    width: 100%;
+}
+
+h1 {
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  color: black;
+}
+
+p {
+    font-family: "Avenir", serif;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.box-shadow {
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+    border-radius: 30px;
+}
+
+.register-container {
+    padding: 1em;
+    background-color: #c5e2b9;
+}
+
+.card img {
+  max-width: 100px;
+  max-height: 100px;
+  padding: 0.5em;
+  border-radius: 0.7em;
+}
+
+.card {
+  flex-direction: row;
+  max-width: 90em;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+  border: 0;
+}
+
+.registration-card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-section {
+  max-width: 80%;
+  text-align: left;
+  padding: 0.75em;
+}
+
+.cta-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 2em;
+  text-align: right;
+}
+
+footer {
+    background-color: #c5e2b9;
+    padding: 2rem;
+}
